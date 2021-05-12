@@ -26,8 +26,8 @@ src="https://lh3.googleusercontent.com/proxy/t6MZGjqkRN9PbZfWW2El8xnMA0JWD691nnR
 돌아가기 상대경로, 절대경로 후 불러올 장소 기입함을 통해 이미지를 불러오는 것이 가능함을 확인
 
 번호없는 목록:
-- [돌아가기 상대경로](secondfile.md)
-- [돌아가기 절대경로](./secondfile.md)
+- [돌아가기 상대경로](secondfime.md)
+- [돌아가기 절대경로](./secondfime.md)
    - 서브1
    - 서브2
 
