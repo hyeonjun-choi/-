@@ -60,10 +60,15 @@ public class InputPrameter {
 }
 
 Length: 2
+
 20
+
 35
+
 120
+
 5
+
 
 ### 실습문제 3.
 
@@ -87,8 +92,11 @@ public class OperatoinEx4 {
 
 
 Length: 2
+
 35
+
 10
+
 3...5
 
 
@@ -117,9 +125,13 @@ public class StudyHomework {
 }
 
 false
+
 true
+
 false
+
 F
+
 
 
 
