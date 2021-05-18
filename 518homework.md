@@ -2,66 +2,95 @@
 
 
 
-public class Homework1 {
+package java_homework;
+
+import java.util.Scanner;
+
+public class HomeWork2 {
 
 	public static void main(String[] args) {
-	
-		int sCore = 9;
-		char grade = "A, B, C, D, F";
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("점수를 입력합니다.");
+		String str = sc.nextLine();
+		
+		int sCore = Integer.parseInt(str); 
+		char grade = 0; 
 		
 		
-		if( 100 >= sCore >= 90 ) {
-			System.out.println("");
+		if( sCore >= 90 & sCore <= 100 ) {
+			grade = 'A';
+			System.out.println("A");
 		}
-		else if( 90 > sCore >= 80 ) {
+		else if( sCore >= 80 & sCore <= 100 ) {
+			grade = 'B';
 			System.out.println("B");
 		}
-		else if( 80 > sCore >= 70 ) {
+		else if( sCore >= 70 & sCore <= 100 ) {
+			grade = 'C';
 			System.out.println("C");
 		}
-		else if( 70 > sCore >= 60 ) {
+		else if( sCore >= 60 & sCore <= 100 ) {
+			grade = 'D';
 			System.out.println("D");
 		}
-		else {
+		else if( sCore < 60 & sCore <= 100){
+			grade = 'F';
 			System.out.println("F");	
 		}
+		else {
+			System.out.println("100점 이상은 계산에 넣지 않습니다.");
+		}
 		
-		System.out.println(score + "점수의 등급은" + grade + "입니다");
+		System.out.println(sCore + "점의 등급은" + grade + "입니다");
 
 	}
-
-}
-
+	}
 
 ### p106.
 
+package java_homework;
 
-public class Homework2 {
+import java.util.Scanner;
+
+public class HomeWork1 {
 
 	public static void main(String[] args) {
-		int floor = 1;
-		char place;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("층수를 입력합니다.");
+		String str = sc.nextLine();
+		
+		int num = Integer.parseInt(str);
+		String floor = "place";
 		
 		switch(floor) {
-		case 1 : place = "약국";
-				break;
-		case 2 : place = "정형외과";
-				break;
-		case 3 : place = "피부과";
-				break;
-		case 4 : place = "치과";
-				break;
-		case 5 : place = "헬스 클럽";
-				break;
+		case "1층":
+		System.out.println("1층 약국입니다.");
+		break;
+		case "2층":
+		System.out.println("2층 정형외과입니다.");
+		break;
+		case "3층":
+		System.out.println("3층 피부과입니다.");
+		break;
+		case "4층":
+		System.out.println("4층 치과입니다.");
+		break;
+		case "5층":
+		System.out.println("5층 헬스 클럽입니다.");
+		break;
+		default:
+		System.out.println("건물이 없습니다.");
+		break;
 		
-		default : place = "장소";
+		
+		
 		}
-		System.out.println(floor + "층" + place + "입니다.");
-
+		
+		
 	}
-
 }
-
 
 ### 123p.
 
