@@ -14,16 +14,13 @@ public class Person {
 	 name = pname;				// Person클래스를 생성하는 생성자
  }
  
-// public Person(float pheight) {
-//	 height = pheight;
-// }
- 
- //public Person(float pweight) {
-//	 weight = pweight;
-// }
- 
- 
 //---------------------------------------------------------------
+ 
+ public Person(String pname, float pheight, float pweight) {		//사람 이름, 키, 몸무게를
+	 name = pname;													//매개변수로 입력받아서
+	 height = pheight;												//Person클래스 생성
+	 weight = pweight;												//(여러개의 매개변수로
+ }																	//입력받아야 할 때)
  
  
 }
